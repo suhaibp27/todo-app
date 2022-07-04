@@ -1,0 +1,42 @@
+.todo {
+    width: 80%;
+    padding: 20px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.todo:hover {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.todo__title {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.todo__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo__button {
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.todo__button:hover {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 768px) {
+    .todo__title {
+        font-size: 16px;
+    }
+}
