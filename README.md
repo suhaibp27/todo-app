@@ -13,6 +13,6 @@ https://todo-app-suhaib-p.web.app/
 
 - Fuctionalities to add a task, set a task as complete and delete a task.
 - Created using JavaScript library React.js
-- React-icons
+- Utilized react hooks useState and useReducer
 - Hosted in Firebase
 
